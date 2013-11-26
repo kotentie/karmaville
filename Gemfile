@@ -7,6 +7,9 @@ gem 'bcrypt-ruby'
 
 gem 'pg'
 gem 'jquery-rails'
+gem 'dalli'
+gem 'cache_digests'
+gem "memcached"
 
 group :development do
   gem 'quiet_assets'

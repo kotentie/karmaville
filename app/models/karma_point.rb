@@ -7,7 +7,4 @@ class KarmaPoint < ActiveRecord::Base
   validates :label, :presence => true
 end
 
-def self.karmascore
 
-
-end

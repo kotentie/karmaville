@@ -6,6 +6,7 @@
     <th>Username</th>
     <th>Email</th>
   </tr>
+
   <% @users.each do |user| %>
     <%= render 'user_row', :user => user %>
   <% end %>
